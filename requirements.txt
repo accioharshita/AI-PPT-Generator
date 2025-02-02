@@ -1,0 +1,21 @@
+# Core application dependencies
+streamlit==1.41.1
+python-dotenv==1.0.1
+
+# CrewAI and related dependencies
+crewai==0.95.0
+crewai-tools==0.25.8
+langtrace-python-sdk==3.3.21
+
+# LangChain dependencies
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-openai==0.2.14
+
+# OpenAI
+openai==1.59.6
+
+# Required utilities
+pydantic==2.10.5
+requests==2.32.3
+pysqlite3-binary
