@@ -109,7 +109,7 @@ st.title("📄 PPT Generator")
 st.markdown("### Transform Your Ideas into Professional Presentations")
 
 # Create two columns for better layout
-col1, col2 = st.columns([2, 1])
+col1, col2 = st.columns([3, 1])
 
 with col1:
     topic = st.text_input(
@@ -119,7 +119,7 @@ with col1:
     )
 
 with col2:
-    st.markdown("<br>", unsafe_allow_html=True)  # Add some spacing
+    st.write("")  # Helps with vertical alignment
     generate_button = st.button("🚀 Generate Presentation", use_container_width=True)
 
 # Define the EduFlow class
